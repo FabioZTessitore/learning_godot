@@ -5,8 +5,8 @@ extends Panel
 # button e label
 
 func _on_Button_pressed():
-	$MarginContainer/CenterContainer/VBoxContainer/CenterContainer/Label.text = "Hello, World!"
+	$MarginContainer/CenterContainer/VBoxContainer3/VBoxContainer/CenterContainer/Label.text = "Hello, World!"
 	$MessageTimer.start()
 
 func _on_MessageTimer_timeout():
-	$MarginContainer/CenterContainer/VBoxContainer/CenterContainer/Label.text = "Premi il pulsante per cambiare il testo"
+	$MarginContainer/CenterContainer/VBoxContainer3/VBoxContainer/CenterContainer/Label.text = "Premi il pulsante per cambiare il testo"
