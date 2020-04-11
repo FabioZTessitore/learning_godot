@@ -4,7 +4,8 @@
 [ext_resource path="res://Player.gd" type="Script" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 57.8844
+radius = 101.254
+height = 110.099
 
 [node name="Player" type="Area2D"]
 script = ExtResource( 2 )
